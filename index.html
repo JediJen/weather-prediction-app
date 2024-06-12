@@ -6,21 +6,64 @@
     <title>Pridicting the Weather</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/JediJen" target="_blank"> Jennifer Foley </a>
-      and is on
-      <a
-        href="https://github.com/JediJen/weather-prediction-app"
-        target="_blank"
-      >
-        GitHub</a
-      >
-      and hosted on
-      <a href="https://pedicting-the-weather.netlify.app/" target="_blank">
-        Netlify</a
-      >.
-    </footer>
+    <div class="weather-app">
+      <header>
+        <p class="catchphrase">
+          To forecast one’s weather, one must converse with the unknown.
+        </p>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <p class="mystic-saying">
+          The cards reveal secrets the stars have kept.
+        </p>
+        <br />
+        <div class="weather-app-data">
+          <div class="date-time-data">
+            <p class="date-time">Tuesday 12:00</p>
+          </div>
+          <div class="temperature-container">
+            <div class="icon"></div>
+            <div class="temperature">13</div>
+            <div class="temp-unit">°C</div>
+            <div class="conditions">broken clouds</div>
+          </div>
+
+          <h1 class="city">Amsterdam</h1>
+          <div class="humidty-wind-data">
+            <p class="humidity-wind">
+              Humidity: 55%
+              <br />
+              Wind: 3.6km/h
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/JediJen" target="_blank">
+          Jennifer Foley
+        </a>
+        and is on
+        <a
+          href="https://github.com/JediJen/weather-prediction-app"
+          target="_blank"
+        >
+          GitHub</a
+        >
+        and hosted on
+        <a href="https://pedicting-the-weather.netlify.app/" target="_blank">
+          Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>
