@@ -1,6 +1,6 @@
 body {
   background-color: #0e0623;
-  font-family: "IM Fell Great Primer SC", serif;
+  font-family: "Red Rose", serif;
 }
 
 a {
@@ -9,11 +9,7 @@ a {
 p {
   text-align: center;
   color: #e9c261;
-}
-.weather-app-logo {
-  display: block;
-  margin: 0 10px;
-  height: 48px;
+  font-size: 20px;
 }
 
 .weather-app {
@@ -30,7 +26,16 @@ header {
   border-bottom: 1px solid #e9c261;
   padding: 0 0 30px 0;
 }
-
+.logo-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.weather-app-logo {
+  margin: 0 10px;
+  height: 100px;
+}
 .search-form {
   display: flex;
   justify-content: center;
@@ -42,25 +47,30 @@ header {
   border: none;
   border-radius: 6px;
   width: 70%;
-  font-size: 16px;
-  padding: 15px 20px;
+  font-size: 18px;
+  padding: 10px 20px;
   color: #2d0c37;
+  font-family: "Red Rose", serif;
 }
 
 .search-form-button {
   background: #2d0c37;
-  padding: 15px 30px;
+  padding: 10px 30px;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   margin-left: 5px;
   border-radius: 6px;
   color: #e9c261;
+  font-family: "Red Rose", serif;
 }
 .tarot-card {
+  background-image: url("../images/tarot card background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   display: block;
   margin: 0 auto;
-  background: #2d0c37;
-  max-width: fit-content;
+  max-width: max-content;
+  max-height: max-content;
   padding: 30px;
   border: none;
   border-radius: 10px;
