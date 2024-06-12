@@ -1,31 +1,33 @@
 body {
-  background-color: #f9f7fe;
-  font-family: "Roboto", sans-serif;
+  background-color: #0e0623;
+  font-family: "IM Fell Great Primer SC", serif;
 }
 
 a {
-  color: #885df1;
+  color: #2d0c37;
 }
 p {
   text-align: center;
+  color: #e9c261;
 }
 .weather-app-logo {
   display: block;
-  margin: 0 auto;
+  margin: 0 10px;
+  height: 48px;
 }
 
 .weather-app {
-  background: white;
+  background: linear-gradient(0deg, rgb(169, 131, 81) 0%, rgb(45, 12, 55) 100%);
   display: block;
   max-width: 600px;
   margin: 0 auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 3px -2px 23px 24px rgba(233, 194, 97, 0.2);
   border-radius: 16px;
   padding: 30px;
 }
 
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid #e9c261;
   padding: 0 0 30px 0;
 }
 
@@ -36,27 +38,28 @@ header {
 }
 
 .search-form-input {
-  background-color: #f9f7fe;
+  background-color: rgba(176, 135, 188, 0.6);
   border: none;
   border-radius: 6px;
   width: 70%;
   font-size: 16px;
   padding: 15px 20px;
+  color: #2d0c37;
 }
 
 .search-form-button {
-  background: #885df1;
+  background: #2d0c37;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
   margin-left: 5px;
   border-radius: 6px;
-  color: white;
+  color: #e9c261;
 }
 .tarot-card {
   display: block;
   margin: 0 auto;
-  background: #885df1;
+  background: #2d0c37;
   max-width: fit-content;
   padding: 30px;
   border: none;
@@ -67,6 +70,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #e9c261;
 }
 
 .icon {
@@ -95,11 +99,12 @@ header {
   text-align: center;
   font-size: 38px;
   line-height: 48px;
+  color: #e9c261;
 }
 
 .humidity-wind {
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #e9c261;
   line-height: 24px;
   font-weight: 500;
   text-align: center;
@@ -110,9 +115,9 @@ header {
 }
 
 footer {
-  border-top: 1px solid #f9f7fe;
+  border-top: 1px solid #2d0c37;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(45, 12, 55, 0.6);
 }
