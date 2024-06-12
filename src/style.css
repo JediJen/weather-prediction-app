@@ -15,26 +15,30 @@ p {
 .weather-app {
   background: linear-gradient(0deg, rgb(169, 131, 81) 0%, rgb(45, 12, 55) 100%);
   display: block;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   box-shadow: 3px -2px 23px 24px rgba(233, 194, 97, 0.2);
   border-radius: 16px;
-  padding: 30px;
+  padding: 10px;
 }
 
 header {
   border-bottom: 1px solid #e9c261;
-  padding: 0 0 30px 0;
+  padding: 0 0 20px 0;
 }
 .logo-heading {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 10px;
 }
 .weather-app-logo {
   margin: 0 10px;
-  height: 100px;
+  height: 60px;
+}
+.catchphrase {
+  font-size: 16px;
 }
 .search-form {
   display: flex;
@@ -47,7 +51,7 @@ header {
   border: none;
   border-radius: 6px;
   width: 70%;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px 20px;
   color: #2d0c37;
   font-family: "Red Rose", serif;
@@ -57,21 +61,25 @@ header {
   background: #2d0c37;
   padding: 10px 30px;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 5px;
   border-radius: 6px;
   color: #e9c261;
   font-family: "Red Rose", serif;
 }
+
+.mystic-saying {
+  font-size: 16px;
+  margin-bottom: 0;
+}
 .tarot-card {
-  background-image: url("../images/tarot card background.png");
+  background-image: url("../images/tarot card background.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center center;
   display: block;
   margin: 0 auto;
-  max-width: max-content;
-  max-height: max-content;
-  padding: 30px;
+  padding: 110px;
   border: none;
   border-radius: 10px;
 }
