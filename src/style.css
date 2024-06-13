@@ -147,6 +147,10 @@ header {
   color: rgb(223, 198, 231);
 }
 
+.mystic-saying-2 {
+  color: #2d0c37;
+  font-size: 16px;
+}
 footer {
   padding: 30px 0 0 0;
   text-align: center;
