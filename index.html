@@ -25,12 +25,13 @@
             To forecast one’s weather, one must converse with the unknown.
           </p>
         </div>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -43,24 +44,24 @@
           <div class="weather-app-data">
             <div class="date-time-data">
               <p class="date-time">
-                <div class="weekday">Tuesday</div>
-                <div class="current-time">12:00</div>
+                <span class="weekday" id="day">Tuesday</span>
+                <span class="current-time" id="time">12:00</span>
               </p>
             </div>
-            <div class="icon">
+            <div class="icon" id="icon">
               <img src="images/partly cloudy.png" alt="partly-cloudy" />
             </div>
             <div class="temperature-container">
-              <div class="temperature">13</div>
+              <div class="temperature" id="temperature">13</div>
               <div class="temp-unit">°C</div>
             </div>
-            <p class="conditions">broken clouds</p>
-            <h1 class="city">AMSTERDAM</h1>
+            <p class="conditions" id="conditions">broken clouds</p>
+            <h1 class="city" id="city">AMSTERDAM</h1>
             <div class="humidty-wind-data">
               <p class="humidity-wind">
-                Humidity: <strong>55%</strong>
+                Humidity: <strong id="humidity">55%</strong>
                 <br />
-                Wind: <strong>3.6km/h</strong>
+                Wind: <strong id="wind-speed">3.6km/h</strong>
               </p>
             </div>
           </div>
