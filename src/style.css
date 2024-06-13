@@ -70,6 +70,12 @@ header {
   font-family: "Red Rose", serif;
 }
 
+.search-form-button:hover {
+  cursor: pointer;
+  background: rgba(176, 135, 188, 0.6);
+  color: #e9c261;
+}
+
 .mystic-saying {
   font-size: 16px;
 }
