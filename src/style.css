@@ -149,6 +149,30 @@ header {
   color: rgb(223, 198, 231);
 }
 
+.weather-forecast {
+  display: block;
+  text-align: center;
+  background: #2d0c37;
+  border-radius: 16px;
+  padding: 10px 5px;
+  margin: 0 320px;
+  color: #e9c261;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.weather-forecast-icon {
+  width: 45px;
+}
+
+.weather-forecast-temp-min {
+  color: rgb(223, 198, 231, 0.8);
+  font-size: 15px;
+}
+
 .mystic-saying-2 {
   color: #2d0c37;
   font-size: 16px;
