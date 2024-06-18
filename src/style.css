@@ -167,16 +167,16 @@ header {
 .weather-forecast-date {
   font-size: 16px;
   line-height: 20px;
-  padding-bottom: 5px;
 }
 
 .weather-forecast-icon {
-  width: 45px;
+  width: 60px;
 }
 
 .weather-forecast-temp-min {
   color: rgb(223, 198, 231, 0.8);
   font-size: 15px;
+  padding-left: 5px;
 }
 
 .mystic-saying-2 {
